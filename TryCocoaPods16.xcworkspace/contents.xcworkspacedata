@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MyFramework/MyFramework.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TryCocoaPods16.xcodeproj">
    </FileRef>
    <FileRef
