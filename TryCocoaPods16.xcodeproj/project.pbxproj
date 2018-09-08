@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D5E7766359AD041713AEBA /* Pods_TryCocoaPods16.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF33555CE670BB7B0F3C9092 /* Pods_TryCocoaPods16.framework */; };
 		8565BEB62143C709006464DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8565BEB52143C709006464DA /* AppDelegate.swift */; };
 		8565BEB82143C709006464DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8565BEB72143C709006464DA /* ViewController.swift */; };
 		8565BEBA2143C70A006464DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8565BEB92143C70A006464DA /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E6D41C628891664F19F8134 /* Pods-TryCocoaPods16.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryCocoaPods16.release.xcconfig"; path = "Target Support Files/Pods-TryCocoaPods16/Pods-TryCocoaPods16.release.xcconfig"; sourceTree = "<group>"; };
 		8565BEB22143C709006464DA /* TryCocoaPods16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryCocoaPods16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8565BEB52143C709006464DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8565BEB72143C709006464DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +23,8 @@
 		8565BEBC2143C70A006464DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8565BEBE2143C70A006464DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8565BEBF2143C70A006464DA /* TryCocoaPods16.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TryCocoaPods16.entitlements; sourceTree = "<group>"; };
+		AF33555CE670BB7B0F3C9092 /* Pods_TryCocoaPods16.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryCocoaPods16.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E047451F349CFA19A0B79CD0 /* Pods-TryCocoaPods16.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryCocoaPods16.debug.xcconfig"; path = "Target Support Files/Pods-TryCocoaPods16/Pods-TryCocoaPods16.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D5E7766359AD041713AEBA /* Pods_TryCocoaPods16.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,8 @@
 			children = (
 				8565BEB42143C709006464DA /* TryCocoaPods16 */,
 				8565BEB32143C709006464DA /* Products */,
+				ED1DC7BBF0C1003403B2F3DA /* Pods */,
+				B3F7628645FFB442EB3A057E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +70,24 @@
 			path = TryCocoaPods16;
 			sourceTree = "<group>";
 		};
+		B3F7628645FFB442EB3A057E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF33555CE670BB7B0F3C9092 /* Pods_TryCocoaPods16.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1DC7BBF0C1003403B2F3DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E047451F349CFA19A0B79CD0 /* Pods-TryCocoaPods16.debug.xcconfig */,
+				2E6D41C628891664F19F8134 /* Pods-TryCocoaPods16.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -70,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8565BEC22143C70B006464DA /* Build configuration list for PBXNativeTarget "TryCocoaPods16" */;
 			buildPhases = (
+				2B068EF3100E9EB72FB38872 /* [CP] Check Pods Manifest.lock */,
 				8565BEAE2143C709006464DA /* Sources */,
 				8565BEAF2143C709006464DA /* Frameworks */,
 				8565BEB02143C709006464DA /* Resources */,
@@ -127,6 +153,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B068EF3100E9EB72FB38872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryCocoaPods16-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8565BEAE2143C709006464DA /* Sources */ = {
@@ -267,6 +318,7 @@
 		};
 		8565BEC32143C70B006464DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E047451F349CFA19A0B79CD0 /* Pods-TryCocoaPods16.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TryCocoaPods16/TryCocoaPods16.entitlements;
@@ -285,6 +337,7 @@
 		};
 		8565BEC42143C70B006464DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6D41C628891664F19F8134 /* Pods-TryCocoaPods16.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TryCocoaPods16/TryCocoaPods16.entitlements;
